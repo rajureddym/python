@@ -16,7 +16,7 @@
                 int my_dogs = 2
                 my_dogs = "puppy" //results in error
 
-        * pro - fast development & easy to work, readability 
+        * pros - fast development & easy to work, readability 
         * cons - may result in bug for unexpected data type, we need to use built-in fun type()
 
 **Strings:**
@@ -176,7 +176,7 @@
     myfile.seek() -> to move cursor position to the start of file
     myfile.close() -> to close the opened file 
 
-> Instead of opening & taking care of closing we can do this way so we don't required bother about closing
+> Instead of opening & taking care of closing we can do this way so we don't required or bother about closing
  
     with open('myfile.txt') as my_new_file:
         contents = my_new_file.read()
