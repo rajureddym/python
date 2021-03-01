@@ -53,13 +53,20 @@
         a = z
         a * 10 -> zzzzzzzzzz
 
-* general 
+* most used string methods
 >
      a.upper() 
      a.lower()
-     a.split() -> split by whitespace by default, or we can mention
+     a.capitalize()
+     a.split(" ") -> split by whitespace by default, or we can mention
         ['Hello', 'World']
      a.split(l) -> ['He','o Wor', 'd']
+     a.find('llo') 
+        2 -> returns first index during left to right scan
+     a.rfind('llo') 
+        -8 -> return index from right to left scan
+    a.replace("World","Nagaraju")
+
     
 * String interpolation:
      >
